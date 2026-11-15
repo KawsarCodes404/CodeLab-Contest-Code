@@ -1,0 +1,4 @@
+function groupConsecutiveRanges(numbers) {
+    // TODO
+    
+}
