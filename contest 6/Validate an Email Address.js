@@ -1,0 +1,6 @@
+function isValidEmail(email) {
+  // TODO: Return true if email matches the specified format, false otherwise
+  let regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$/
+
+  return regex.test(email);
+}
